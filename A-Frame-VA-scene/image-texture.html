@@ -10,14 +10,12 @@
 <a-scene antialias="true">
 	
 	<a-assets>
-		<img id="sky" src="images/stars.jpg" crossorigin="anonymous" />
 		<img id="grass" src="images/grass.jpg" crossorigin="anonymous" />
 		<img id="crate" src="images/crate.jpg" crossorigin="anonymous" />
 	</a-assets>
 		
 	<a-sky 
-		color = "#FFFFFF"
-		material = "src: #sky">
+		color = "#87CEEB"
 	</a-sky>
 
 	<a-plane
@@ -58,13 +56,25 @@
 	</a-sphere>
 	
 	<a-sphere
-		radius = "0.15"
-		position = "0 1.25 -3.50"
+		radius = "0.20"
+		position = "0 1.25 -3.75"
 		color = "#000000"
 		shadow = "cast: true; receive: true">
 	</a-sphere>
 	
+	<a-sphere
+		radius = "0.50"
+		position = "0.25 1.25 -4.50"
+		color = "#FFFFFF"
+		shadow = "cast: true; receive: true">
+	</a-sphere>
 	
+	<a-sphere
+		radius = "0.50"
+		position = "-0.25 1.25 -4.50"
+		color = "#FFFFFF"
+		shadow = "cast: true; receive: true">
+	</a-sphere>
 	
 	<a-box
 		width = "1" height = "1" depth = "1"
