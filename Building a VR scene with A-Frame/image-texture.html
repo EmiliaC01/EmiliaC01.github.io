@@ -11,6 +11,7 @@
 	
 	<a-assets>
 		<img id="grass" src="images/grass.jpg" crossorigin="anonymous" />
+		<img id="tiles" src="images/tiles.jpg" crossorigin="anonymous" />
 	</a-assets>
 		
 	<a-sky 
@@ -434,6 +435,16 @@ main back garage roof
 		position = "4.4 5.75 -5.9"
 		rotation = "0 90 295"  
 		color = "#C4A484"
+		shadow = "cast: true; receive: true">
+	</a-box>
+	
+tiles
+	<a-box
+		width = "3" height = "5" depth = "0.2"
+		position = "4 0.1 -14"
+		rotation = "90 0 0"  
+	      	 material="src: #tiles; repeat:10 10; transparent: true; opacity: 0.75"
+		color = "#FFFFFF"
 		shadow = "cast: true; receive: true">
 	</a-box>
 	
